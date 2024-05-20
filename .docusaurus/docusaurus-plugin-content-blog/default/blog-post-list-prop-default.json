@@ -1,0 +1,25 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Welcome",
+      "permalink": "/zhihui-editor/blog/welcome",
+      "unlisted": false
+    },
+    {
+      "title": "MDX Blog Post",
+      "permalink": "/zhihui-editor/blog/mdx-blog-post",
+      "unlisted": false
+    },
+    {
+      "title": "Long Blog Post",
+      "permalink": "/zhihui-editor/blog/long-blog-post",
+      "unlisted": false
+    },
+    {
+      "title": "First Blog Post",
+      "permalink": "/zhihui-editor/blog/first-blog-post",
+      "unlisted": false
+    }
+  ]
+}

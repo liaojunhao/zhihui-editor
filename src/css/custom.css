@@ -1,0 +1,51 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #3a2be0;
+  --ifm-color-primary-dark: #2d1fd2;
+  --ifm-color-primary-darker: #2b1dc6;
+  --ifm-color-primary-darkest: #2318a3;
+  --ifm-color-primary-light: #5042e3;
+  --ifm-color-primary-lighter: #5a4ee5;
+  --ifm-color-primary-lightest: #7b71ea;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #927ffa;
+  --ifm-color-primary-dark: #735bf9;
+  --ifm-color-primary-darker: #6449f8;
+  --ifm-color-primary-darkest: #3512f6;
+  --ifm-color-primary-light: #b1a3fb;
+  --ifm-color-primary-lighter: #c0b5fc;
+  --ifm-color-primary-lightest: #efecfe;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #2b3137;
+}
+
+.footer__links {
+  margin-bottom: 8rem;
+}
+
+.footer__copyright {
+  font-size: 14px;
+}
+
+.menu_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-Content-styles-module {
+  padding-bottom: 200px !important;
+}
+@media (min-width: 997px) {
+  .menu_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-Content-styles-module {
+    padding-bottom: 200px !important;
+  }
+}

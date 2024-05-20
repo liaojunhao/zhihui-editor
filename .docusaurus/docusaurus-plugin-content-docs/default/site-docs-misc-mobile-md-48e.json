@@ -1,0 +1,26 @@
+{
+  "id": "misc/mobile",
+  "title": "移动端支持",
+  "description": "",
+  "source": "@site/docs/misc/mobile.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/mobile",
+  "permalink": "/zhihui-editor/docs/misc/mobile",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "其他",
+    "permalink": "/zhihui-editor/docs/category/其他"
+  },
+  "next": {
+    "title": "如何解决CORS问题",
+    "permalink": "/zhihui-editor/docs/misc/cors"
+  }
+}

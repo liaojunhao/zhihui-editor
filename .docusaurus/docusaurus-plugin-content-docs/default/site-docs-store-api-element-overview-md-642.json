@@ -1,0 +1,27 @@
+{
+  "id": "store-api/element-overview",
+  "title": "Element",
+  "description": "Create a doc page with rich content.",
+  "source": "@site/docs/store-api/element-overview.md",
+  "sourceDirName": "store-api",
+  "slug": "/store-api/element-overview",
+  "permalink": "/zhihui-editor/docs/store-api/element-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "description": "Create a doc page with rich content.",
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Page",
+    "permalink": "/zhihui-editor/docs/store-api/page-overview"
+  },
+  "next": {
+    "title": "界面",
+    "permalink": "/zhihui-editor/docs/category/界面"
+  }
+}

@@ -35,6 +35,7 @@ site/dist
 es
 lib
 dist
+build
 yarn.lock
 esm
 cjs

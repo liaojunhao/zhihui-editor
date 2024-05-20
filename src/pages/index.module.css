@@ -1,0 +1,113 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 8rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sectionHeaderTitle {
+  font-size: 26px;
+  /* color: #2a445d; */
+  text-align: center;
+  padding: 0 20px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.sectionHeaderLine {
+  flex: 1 1;
+  /* border-top: 1px solid #ebf0f4; */
+  height: 1px;
+  background-color: #ebf0f4;
+  margin-top: 18px;
+}
+
+.sectionBox {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 4rem;
+}
+
+.contributing {
+  font-size: 18px;
+  color: #4a5e71;
+  margin-bottom: 16px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.contributingText {
+  font-size: 16px;
+  color: #4a5e71;
+  /* padding-top: 2rem; */
+  padding: 2rem 1rem 0 1rem;
+}
+
+.gettingStartedSection {
+  background-color: #f7f7f7;
+}
+
+html[data-theme='dark'] .gettingStartedSection {
+  background-color: #33363b;
+}
+
+.projectAndAuthorInfo {
+  display: flex;
+  justify-content: start;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1rem 80px 1rem;
+}
+.item {
+  width: 50%;
+}
+
+.authorTitle {
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+}
+html[data-theme='dark'] .authorTitle {
+  color: #fff;
+}
+
+.authorArea {
+  display: flex;
+}
+.authorWrapper {
+  margin-right: 18px;
+  width: 48px;
+  position: relative;
+}
+.thumbNail {
+  border-radius: 50%;
+  overflow: hidden;
+}
+.thumbNail img {
+  width: 100%;
+  height: 100%;
+}

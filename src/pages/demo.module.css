@@ -1,0 +1,183 @@
+.sectionBox {
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 72px;
+  height: auto;
+  justify-content: flex-start;
+  max-width: 1440px;
+  overflow: visible;
+  padding: 16px 32px;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 1152px) and (max-width: 1439px) {
+  .sectionBox {
+    order: 2;
+  }
+}
+.container {
+  align-items: center;
+  border-radius: 12px;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  scroll-margin-top: 148px;
+  width: 100%;
+}
+.containerBox {
+  align-items: center;
+  border-radius: 16px;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  border: 6px solid #ccc;
+}
+
+.embedContainer {
+  flex: 1 0 0px;
+  height: 750px;
+  position: relative;
+  width: 1px;
+  z-index: 4;
+}
+
+.titleContainer {
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 12px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 0 0 48px;
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 1152px) and (max-width: 1439px) {
+  .titleContainer {
+    order: 1;
+    padding: 0 32px 48px;
+  }
+}
+
+.title {
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: min-content;
+  justify-content: space-between;
+  max-width: 1380px;
+  overflow: visible;
+  padding: 60px 32px 16px 0;
+  position: relative;
+  width: 100%;
+}
+@media (min-width: 1152px) and (max-width: 1439px) {
+  .title {
+    padding: 60px 0 16px;
+  }
+}
+
+.leftContent {
+  display: contents;
+}
+
+.leftSsr {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+  flex: none;
+  height: auto;
+  position: relative;
+  white-space: pre;
+  width: auto;
+}
+
+.framerText {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.rightContent {
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 12px 0 0;
+  position: relative;
+  width: 58%;
+}
+.ssrVariant {
+  display: contents;
+}
+.decoration {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+  flex: none;
+  height: auto;
+  position: relative;
+  white-space: pre-wrap;
+  width: 100%;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+.decorationText {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.wrap {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+  width: auto;
+}
+
+.navbarContainer {
+}

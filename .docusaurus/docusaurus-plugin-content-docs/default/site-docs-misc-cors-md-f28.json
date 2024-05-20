@@ -1,0 +1,26 @@
+{
+  "id": "misc/cors",
+  "title": "如何解决CORS问题",
+  "description": "",
+  "source": "@site/docs/misc/cors.md",
+  "sourceDirName": "misc",
+  "slug": "/misc/cors",
+  "permalink": "/zhihui-editor/docs/misc/cors",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "移动端支持",
+    "permalink": "/zhihui-editor/docs/misc/mobile"
+  },
+  "next": {
+    "title": "Server API",
+    "permalink": "/zhihui-editor/docs/category/server-api"
+  }
+}

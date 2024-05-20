@@ -1,0 +1,26 @@
+{
+  "id": "store-api/store-overview",
+  "title": "Store",
+  "description": "Store is a basic data model object that you are going to work with. It has about %90 API functions provided by zhihui-editor.",
+  "source": "@site/docs/store-api/store-overview.md",
+  "sourceDirName": "store-api",
+  "slug": "/store-api/store-overview",
+  "permalink": "/zhihui-editor/docs/store-api/store-overview",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Store API",
+    "permalink": "/zhihui-editor/docs/category/store-api"
+  },
+  "next": {
+    "title": "Page",
+    "permalink": "/zhihui-editor/docs/store-api/page-overview"
+  }
+}

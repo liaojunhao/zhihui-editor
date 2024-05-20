@@ -1,0 +1,26 @@
+{
+  "id": "side-panel/side-panel-upload",
+  "title": "UploadPanel",
+  "description": "重要提示：默认上传面板具有最基本的设置。它无法跨用户会话保留上传的图像，并且不会将图像返回到后端。相反，它将图像作为 base64 字符串直接注入到设计中，这可能会影响性能。强烈建议使用您自己的上传面板版本。",
+  "source": "@site/docs/side-panel/side-panel-upload.md",
+  "sourceDirName": "side-panel",
+  "slug": "/side-panel/side-panel-upload",
+  "permalink": "/zhihui-editor/docs/side-panel/side-panel-upload",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SidePanel",
+    "permalink": "/zhihui-editor/docs/side-panel/side-panel-overview"
+  },
+  "next": {
+    "title": "Demos",
+    "permalink": "/zhihui-editor/docs/category/demos"
+  }
+}

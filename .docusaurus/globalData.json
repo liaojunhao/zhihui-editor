@@ -1,0 +1,158 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/zhihui-editor/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/zhihui-editor/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "config",
+              "path": "/zhihui-editor/docs/config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "demos/full-canvas-editor",
+              "path": "/zhihui-editor/docs/demos/full-canvas-editor",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Interface/toolbar",
+              "path": "/zhihui-editor/docs/Interface/toolbar",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Interface/tooltip",
+              "path": "/zhihui-editor/docs/Interface/tooltip",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Interface/workspace",
+              "path": "/zhihui-editor/docs/Interface/workspace",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/zhihui-editor/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "misc/cors",
+              "path": "/zhihui-editor/docs/misc/cors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "misc/mobile",
+              "path": "/zhihui-editor/docs/misc/mobile",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "non-react-integration",
+              "path": "/zhihui-editor/docs/non-react-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "server-api/cartoon-image",
+              "path": "/zhihui-editor/docs/server-api/cartoon-image",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "server-api/cloud-render",
+              "path": "/zhihui-editor/docs/server-api/cloud-render",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "server-api/pdf-render",
+              "path": "/zhihui-editor/docs/server-api/pdf-render",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "server-api/remove-background-api",
+              "path": "/zhihui-editor/docs/server-api/remove-background-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "side-panel/side-panel-overview",
+              "path": "/zhihui-editor/docs/side-panel/side-panel-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "side-panel/side-panel-upload",
+              "path": "/zhihui-editor/docs/side-panel/side-panel-upload",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "store-api/element-overview",
+              "path": "/zhihui-editor/docs/store-api/element-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "store-api/page-overview",
+              "path": "/zhihui-editor/docs/store-api/page-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "store-api/store-overview",
+              "path": "/zhihui-editor/docs/store-api/store-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "theme",
+              "path": "/zhihui-editor/docs/theme",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "vue-integration",
+              "path": "/zhihui-editor/docs/vue-integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/store-api",
+              "path": "/zhihui-editor/docs/category/store-api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/界面",
+              "path": "/zhihui-editor/docs/category/界面",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/侧面板",
+              "path": "/zhihui-editor/docs/category/侧面板",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/demos",
+              "path": "/zhihui-editor/docs/category/demos",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/其他",
+              "path": "/zhihui-editor/docs/category/其他",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/server-api",
+              "path": "/zhihui-editor/docs/category/server-api",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/zhihui-editor/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

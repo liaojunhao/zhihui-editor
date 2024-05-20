@@ -1,0 +1,49 @@
+.whoIsUsing {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+.usingList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.usingListLi {
+  width: 20%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 6px 12px;
+}
+
+.usingListA {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.imgWrap {
+  width: 100%;
+  max-width: 160px;
+}
+
+.cardImg {
+  padding-top: 25%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
