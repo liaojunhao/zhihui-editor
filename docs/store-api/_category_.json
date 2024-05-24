@@ -3,6 +3,6 @@
   "position": 6,
   "link": {
     "type": "generated-index",
-    "description": "Store API 有%90的方法控制着 Zhihui Editor 整个编辑器的操作，我们集中在一个 Store 来管理着我们整个编辑器的状态跟操作更为方便。"
+    "description": "我们来了解 Store 的概念！"
   }
 }

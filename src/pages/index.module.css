@@ -26,6 +26,10 @@
 .btn {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
+.btn:hover {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.9);
+}
 
 .sectionHeaderTitle {
   font-size: 26px;
@@ -38,10 +42,13 @@
 
 .sectionHeaderLine {
   flex: 1 1;
-  /* border-top: 1px solid #ebf0f4; */
   height: 1px;
-  background-color: #ebf0f4;
+  background-color: rgb(238, 238, 238);
   margin-top: 18px;
+}
+
+html[data-theme='dark'] .sectionHeaderLine {
+  background-color: rgb(47, 47, 47);
 }
 
 .sectionBox {
@@ -62,7 +69,6 @@
 .contributingText {
   font-size: 16px;
   color: #4a5e71;
-  /* padding-top: 2rem; */
   padding: 2rem 1rem 0 1rem;
 }
 

@@ -49,7 +49,9 @@ const config = {
           sidebarCollapsed: false
         },
         blog: {
-          showReadingTime: false
+          showReadingTime: false,
+          blogSidebarTitle: '全部',
+          blogSidebarCount: 'ALL' // 默认显示多少博客文，默认是5
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/'
@@ -81,6 +83,11 @@ const config = {
           },
           { to: '/blog', label: 'AI应用', position: 'left' },
           { to: '/pricing', label: '订阅', position: 'left' },
+          {
+            href: 'https://static.taishan.qq.com/h5/desgin/index.html',
+            label: '预览',
+            position: 'right'
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -139,10 +146,10 @@ const config = {
             ]
           }
         ],
-        copyright: `Copyright © 1998 - ${new Date().getFullYear()} Tencent. All Rights Reserved. 腾讯云智绘 版权所有`
+        copyright: `Copyright © 1998 - ${new Date().getFullYear()} 腾讯云智绘. All Rights Reserved. 腾讯云智绘 版权所有`
       },
       prism: {
-        theme: prismThemes.github,
+        theme: prismThemes.vsDark,
         darkTheme: prismThemes.dracula
       }
     })

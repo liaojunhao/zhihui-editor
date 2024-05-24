@@ -60,7 +60,7 @@ export default function Home() {
             <p className={styles.contributingText}>
               Zhihui Editor
               还处于开源初级阶段，以较低的成本方式孵化着，我们衷心的希望更多小伙伴可以和我们一同建设，如果您有兴趣欢迎
-              <a href="/contact">加入我们</a> 。
+              <Link to="/contact"> 加入我们</Link>。
             </p>
           </div>
           <div className={styles.projectAndAuthorInfo}>

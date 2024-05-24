@@ -93,8 +93,9 @@ console.log(getGlobalFonts());
 
 ### 2.用户自定义字体
 
-如果您想添加/删除特定于用户的字体，您可以使用[Store Fonts API](/docs/Store-API/store-overview)。
-用户也可以从侧面板的“文本”面板的我的字体选项中来添加/删除字体。（这里的字体默认读取的是Stroe.fonts的当前模板使用到字体）
+如果您想添加/删除特定于用户的字体，您可以使用[Store Fonts API](/docs/Store-API/store-overview#字体)。
+
+用户也可以从侧面板的“文本”面板的我的字体选项中来添加/删除字体。（这里的字体默认读取的是Store.fonts中的字体，也是当前画布中用到的字体）
 
 ### 3.全局字体
 
