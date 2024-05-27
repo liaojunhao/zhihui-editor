@@ -1,5 +1,5 @@
 ---
-title: AI绘图
+title: 智能文生图
 authors: [junhliao, psychewang]
 tags: [AI, 文生图, 图生图]
 date: 2024-05-20T10:00

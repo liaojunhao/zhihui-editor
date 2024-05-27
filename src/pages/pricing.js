@@ -347,7 +347,7 @@ export default function Pricing() {
               <div className={styles.pricingProductMain}>
                 <div className={styles.pricingProductMainVersion} style={{ background: '#252a58' }}>
                   <h4 className={styles.versionTitle}>
-                    <span className={styles.versionTitleText}>尊享版</span>
+                    <span className={styles.versionTitleText}>旗舰版</span>
                     <span className={styles.versionLimit}>100 人以上</span>
                   </h4>
                   <div className={styles.versionDescription}> 定制开发 </div>
