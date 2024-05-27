@@ -121,7 +121,7 @@
         <category label="图片处理" term="图片处理"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AI绘图]]></title>
+        <title type="html"><![CDATA[智能文生图]]></title>
         <id>https://liaojunhao.github.io/zhihui-editor/blog/text-to-image</id>
         <link href="https://liaojunhao.github.io/zhihui-editor/blog/text-to-image"/>
         <updated>2024-05-20T10:00:00.000Z</updated>
@@ -138,5 +138,24 @@
         <category label="AI" term="AI"/>
         <category label="文生图" term="文生图"/>
         <category label="图生图" term="图生图"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[图像风格化]]></title>
+        <id>https://liaojunhao.github.io/zhihui-editor/blog/cartoon-image</id>
+        <link href="https://liaojunhao.github.io/zhihui-editor/blog/cartoon-image"/>
+        <updated>2024-05-19T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[图像风格化有很多种，更多样化的风格选择，更好支持中文场景下的建筑风景生成、古诗词理解、水墨剪纸等中国元素风格生成，以及各种动漫、游戏风格的高精度图像生成和风格转换，为高质量的内容创作、内容运营提供技术支持。]]></summary>
+        <content type="html"><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>信息</div><div class="admonitionContent_BuS1"><p>图像风格化有很多种，更多样化的风格选择，更好支持中文场景下的建筑风景生成、古诗词理解、水墨剪纸等中国元素风格生成，以及各种动漫、游戏风格的高精度图像生成和风格转换，为高质量的内容创作、内容运营提供技术支持。</p></div></div>]]></content>
+        <author>
+            <name>junhliao</name>
+            <uri>https://github.com/liaojunhao</uri>
+        </author>
+        <author>
+            <name>psychewang</name>
+            <uri>https://github.com/liaojunhao</uri>
+        </author>
+        <category label="AI" term="AI"/>
+        <category label="图像风格化" term="图像风格化"/>
+        <category label="动漫化" term="动漫化"/>
     </entry>
 </feed>
