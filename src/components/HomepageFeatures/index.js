@@ -14,7 +14,7 @@ const FeatureList = [
     description: (
       <>
         任意 js 框架均可使用，可以无缝融入您现有的 Vue 或 Angular 项目。利用我们的
-        SDK，只需要简单的配置就可以获取全套的编辑器。
+        SDK，只需要简单的配置就可以获取全套的编辑器
       </>
     )
   },
@@ -28,7 +28,7 @@ const FeatureList = [
     ),
     description: (
       <>
-        10万个优质模板、创意素材随心选；腾讯设计师自产独家素材；各大知名素材供应商合作伙伴，全方位满足各行业的创意素材需求。
+        10万+优质模板、创意素材随心选；腾讯设计师自产独家素材；各大知名素材供应商合作伙伴，全方位满足各行业的创意素材需求
       </>
     )
   },
@@ -40,7 +40,7 @@ const FeatureList = [
         style={{ maxHeight: 180, margin: '0 auto', width: 'auto' }}
       ></img>
     ),
-    description: <>Zhihui Editor 有全套的数字化内容资产管理，使您能够轻松控制数据的保存位置和方式。</>
+    description: <>Zhihui Editor 有全套的数字化内容资产管理，使您能够轻松控制数据的保存位置和方式</>
   },
   {
     title: '可定制',
@@ -50,7 +50,7 @@ const FeatureList = [
         style={{ maxHeight: 180, margin: '0 auto', width: 'auto' }}
       ></img>
     ),
-    description: <>轻松扩展创意内容制作。根据您的特定技术堆栈进行定制。从而实现与您现有系统的深度集成和无缝融合。</>
+    description: <>轻松扩展创意内容制作。根据您的特定技术堆栈进行定制。从而实现与您现有系统的深度集成和无缝融合</>
   },
   {
     title: 'AI应用',
@@ -61,9 +61,7 @@ const FeatureList = [
       ></img>
     ),
     description: (
-      <>
-        各种结合AI的应用：智能批量套版、自动尺寸延展、AIGC智能设计、 图片批量编辑等，帮Zhihui Editor设计工具提升效率。
-      </>
+      <>各种结合AI的应用：智能批量套版、自动尺寸延展、AIGC智能设计、 图片批量编辑等，帮助Zhihui Editor编辑器提升效率</>
     )
   }
 ];

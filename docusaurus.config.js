@@ -9,6 +9,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Zhihui Editor',
+  staticDirectories: ['public', 'static'],
   tagline: '快速构建图形编辑器',
   favicon: 'img/favicon.ico',
 
@@ -122,10 +123,10 @@ const config = {
                 label: '智绘官网',
                 href: 'https://zhihui.qq.com'
               },
-              {
-                label: '关于我们',
-                href: '/introduce'
-              },
+              // {
+              //   label: '关于我们',
+              //   href: '/introduce'
+              // },
               {
                 label: '联系我们',
                 href: '/contact'
