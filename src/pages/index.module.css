@@ -32,12 +32,11 @@
 }
 
 .sectionHeaderTitle {
-  font-size: 26px;
-  /* color: #2a445d; */
+  font-size: 26px !important;
   text-align: center;
   padding: 0 20px;
-  margin: 0;
-  font-weight: 600;
+  margin: 0 !important;
+  font-weight: 600 !important;
 }
 
 .sectionHeaderLine {
@@ -53,7 +52,7 @@ html[data-theme='dark'] .sectionHeaderLine {
 
 .sectionBox {
   display: flex;
-  max-width: 1140px;
+  max-width: var(--ifm-container-width-xl) !important;
   margin: 0 auto;
   padding-top: 4rem;
 }
@@ -62,7 +61,7 @@ html[data-theme='dark'] .sectionHeaderLine {
   font-size: 18px;
   color: #4a5e71;
   margin-bottom: 16px;
-  max-width: 1140px;
+  max-width: var(--ifm-container-width-xl) !important;
   margin: 0 auto;
 }
 
@@ -82,8 +81,8 @@ html[data-theme='dark'] .gettingStartedSection {
 
 .projectAndAuthorInfo {
   display: flex;
-  justify-content: start;
-  max-width: 1140px;
+  /* justify-content: start; */
+  max-width: var(--ifm-container-width-xl) !important;
   margin: 0 auto;
   padding: 0 1rem 80px 1rem;
 }

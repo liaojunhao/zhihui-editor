@@ -10,6 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Zhihui Editor',
   staticDirectories: ['public', 'static'],
+  themes: ['@docusaurus/theme-live-codeblock'],
   tagline: '快速构建图形编辑器',
   favicon: 'img/favicon.ico',
 

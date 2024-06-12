@@ -1,5 +1,5 @@
 .whoIsUsing {
-  max-width: 1140px;
+  max-width: var(--ifm-container-width-xl) !important;
   margin: 0 auto;
   padding-bottom: 3rem;
   padding-top: 2rem;
@@ -11,8 +11,8 @@
   justify-content: center;
   gap: 0;
   list-style: none;
-  padding: 0;
-  margin-bottom: 0;
+  padding: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .usingListLi {

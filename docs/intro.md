@@ -21,12 +21,12 @@ Zhihui Editor 是一个简单的工具包，可以解决一组集中的业务问
 <Tabs>
   <TabItem value="npm run zhihui-editor" label="npm" default>
     ```js
-    npm run zhihui-editor
+    npm install zhihui-editor
     ```
   </TabItem>
-  <TabItem value="yarn zhihui-editor" label="Yarn">
+  <TabItem value="yarn zhihui-editor" label="yarn">
     ```bash
-    yarn zhihui-editor
+    yarn add zhihui-editor
     ```
   </TabItem>
   <TabItem value="pnpm add zhihui-editor" label="pnpm">
@@ -74,7 +74,7 @@ export const App = () => {
 
 :::info
 
-在我们使用React的时候知道，本质上我们所有的UI都是可以通过数据驱动，只是我们在使用canvas的时候对里面操作的增、删、改、查没有建立起这种数据驱动，那我们完全可以自己建立这种数据驱动的规范，建立一个集中的数据模型（Store）里面的属性映射这canvas画布中的各个元素。通过这种集中的数据管理来操作着我们的画布，更为便捷也更为好管理。
+在我们使用React的时候了解到单向数据流，本质上我们所有的UI都是可以通过数据驱动，只是我们在使用canvas的时候对里面操作的增、删、改、查没有建立起这种数据驱动机制，那我们完全可以自定义建立这种数据驱动的规范，建立一个集中的数据模型（Store）里面的属性映射这canvas画布中的各个元素。通过这种集中的数据管理来操作着我们的画布，更为便捷也更为好管理。
 
 :::
 
@@ -139,13 +139,13 @@ export const App = () => {
 
 ### 样式
 
-大部分的 <Highlight color="#dfd9fe">Zhihui Editor</Highlight> UI 都是用[Tailwind CSS](https://tailwindui.com/)框架制作的，如果您正在制作自己的自定义 UI 界面或其他组件，我们建议您还是尽可能使用 Tailwind CSS。但是，您始终可以使用自己的自定义解决方案或其他样式框架。
+大部分的 <Highlight color="#dfd9fe">Zhihui Editor</Highlight> UI 都是用 [Tailwind CSS](https://tailwindui.com/) 框架制作的，如果您正在制作自己的自定义 UI 界面或其他组件，我们建议您还是尽可能使用 Tailwind CSS。但是，您始终可以使用自己的自定义解决方案或其他样式框架。
 
 Zhihui Editor 也使到用了 [HeadlessUI](https://headlessui.com/) 和 [IconPark](https://iconpark.oceanengine.com/home)
 
 ### 状态管理
 
-Zhihui Editor 的状态管理核心是使用[mobx](https://mobx.js.org/README.html)库构建的，您可以利用 <code>mobx</code> API 为您自己的应用程序添加一些状态。在React框架中，您将需要用到[mobx-state-tree](https://mobx-state-tree.js.org/intro/welcome)库的 <code>observer()</code> 函数来观察数据的变化是必不可少的。
+Zhihui Editor 的状态管理核心是使用 [mobx](https://mobx.js.org/README.html) 库构建的，您可以利用 <code>mobx</code> API 为您自己的应用程序添加一些状态。在React框架中，您将需要用到 [mobx-state-tree](https://mobx-state-tree.js.org/intro/welcome) 库的 <code>observer()</code> 函数来观察数据的变化是必不可少的。
 
 ```jsx
 import { observer } from 'mobx-react-lite';

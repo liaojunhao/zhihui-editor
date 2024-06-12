@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ## 如何更改图片上传行为？
 
-默认的[SidePanel 组件](/docs/侧面板/side-panel-overview)具有 <code>Upload</code> 用于将本地图像导入项目的选项卡。默认情况下 Zhihui Editor 只是将本地文件转换为 base64 字符串。生成的 URL 字符串用于 image 元素。使用 base64 字符串可能会生成较大尺寸的项目，因为图像将完全编码在 JSON 内。
+默认的 [SidePanel 组件](/docs/side-panel/side-panel-overview) 具有 <code>Upload</code> 用于将本地图像导入项目的选项卡。默认情况下 Zhihui Editor 只是将本地文件转换为 base64 字符串。生成的 URL 字符串用于 image 元素。使用 base64 字符串可能会生成较大尺寸的项目，因为图像将完全编码在 JSON 内。
 
 **强烈建议将图像上传到您的服务器**。这将使 JSON 更小、更易于阅读，并且还显着提高编辑器的性能。
 

@@ -1,5 +1,15 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # 移动端支持
+
+:::info
+
+开发中...
+
+:::
+
+## Zhihui Editor 是否支持移动端？
+
+是的，您可以在移动设备和触摸设备上使用它来创建精美的设计。Zhihui Editor 无缝适配移动设备和触摸设备，确保在任何屏幕尺寸上都能获得流畅、优化的设计体验。

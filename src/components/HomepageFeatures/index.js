@@ -61,7 +61,9 @@ const FeatureList = [
       ></img>
     ),
     description: (
-      <>各种结合AI的应用：智能批量套版、自动尺寸延展、AIGC智能设计、 图片批量编辑等，帮助Zhihui Editor编辑器提升效率</>
+      <>
+        各种结合AI的应用：智能批量套版、自动尺寸延展、AI背景、 移除背景、图片批量生成等，帮助Zhihui Editor编辑器提升效率
+      </>
     )
   }
 ];
@@ -69,9 +71,13 @@ const FeatureList = [
 function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">{Svg}</div>
+      <div className="text--center" style={{ marginBottom: 5 }}>
+        {Svg}
+      </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
+        <Heading as="h3" style={{ fontSize: 20 }}>
+          {title}
+        </Heading>
         <p>{description}</p>
       </div>
     </div>

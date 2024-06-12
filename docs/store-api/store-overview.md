@@ -6,7 +6,7 @@ import Highlight from '@site/src/components/Highlight';
 
 # Store
 
-<Highlight color="#dfd9fe">Store</Highlight> 是您将要使用到的基本数据模型对象，它有%90的API方法都来自于<Highlight color="#dfd9fe">Zhihui Editor</Highlight>
+<Highlight color="#dfd9fe">Store</Highlight> 是您将要使用到的基本数据模型对象，它有%90的API方法都来自于 <Highlight color="#dfd9fe">Zhihui Editor</Highlight>
 
 ```jsx
 import { createStore } from 'zhihui-editor/lib/model/store';
@@ -305,7 +305,7 @@ store.removeFont('MyCustomFont');
 
 ### <Highlight color='#dfd9fe'>store.loadFont(name)​</Highlight>
 
-加载自定义的远程字体，但如果您想要在 UI 的某个地方显示字体列表，它会很有用。<Highlight color='#dfd9fe'>store.loadFont(name)​</Highlight>函数会向网页添加字体，以便浏览器可以呈现正确的字体。
+加载自定义的远程字体，但如果您想要在 UI 的某个地方显示字体列表，它会很有用。<Highlight color='#dfd9fe'>store.loadFont(name)​</Highlight> 函数会向网页添加字体，以便浏览器可以呈现正确的字体。
 
 :::note
 

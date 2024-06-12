@@ -8,7 +8,7 @@ import Highlight from '@site/src/components/Highlight';
 
 :::info
 
-正在开发中...
+开发中...
 
 :::
 
@@ -18,7 +18,7 @@ import Highlight from '@site/src/components/Highlight';
 
 为了更简单的原型集成，请继续阅读...
 
-## 可以<Highlight color="#dfd9fe">Zhihui Editor</Highlight>与<Highlight color="#dfd9fe">Vue.js</Highlight>框架一起使用吗？
+## 可以 <Highlight color="#dfd9fe">Zhihui Editor</Highlight> 与 <Highlight color="#dfd9fe">Vue.js</Highlight> 框架一起使用吗？
 
 如果不需要大量定制，您可以使用 <Highlight color="#dfd9fe">Vue.js</Highlight> 框架制作自己的应用程序并在其中嵌入 <Highlight color="#dfd9fe">Zhihui Editor</Highlight>。然后使用[store API](/docs/store-api/store-overview)与编辑器进行交互。
 
@@ -30,16 +30,16 @@ import Highlight from '@site/src/components/Highlight';
 </template>
 
 <script>
-import { createDemoApp } from "zhihui-editor/zhihuiEditorApp";
+import { createDemoApp } from 'zhihui-editor/zhihuiEditorApp';
 
 export default {
-  name: "App",
+  name: 'App',
   mounted() {
     const { store } = createDemoApp({
-      container: document.getElementById("app"),
-      key: "YOUR_TOKEN", // you can create it here: https://liaojunhao.github.io/zhihui-editor/pricing
+      container: document.getElementById('app'),
+      token: 'YOUR_TOKEN' // you can create it here: /pricing
     });
-  },
+  }
 };
 </script>
 

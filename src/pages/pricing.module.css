@@ -23,7 +23,7 @@ html[data-theme='dark'] .top {
 }
 
 .topBox h1 {
-  padding-top: 64px;
+  padding-top: 55px;
   text-align: center;
   font-size: 48px;
   line-height: 64px;
@@ -36,7 +36,7 @@ html[data-theme='dark'] .topBox h1 {
   text-align: center;
 }
 .subtitleBox p {
-  margin: 0;
+  margin: 0 !important;
 }
 
 html[data-theme='dark'] .subtitleBox p {

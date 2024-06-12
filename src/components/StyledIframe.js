@@ -1,13 +1,13 @@
 // 在你的 MDX 文件中
 import React from 'react';
 
-const StyledIframe = ({ src }) => (
+const StyledIframe = ({ src, title, height }) => (
   <iframe
     src={src}
-    title="my-zhihui-editor"
+    title={title}
     style={{
       width: '100%',
-      height: '500px',
+      height: Number(height),
       border: 'none',
       borderRadius: 12,
       overflow: 'hidden'
