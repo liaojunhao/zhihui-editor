@@ -13,11 +13,7 @@
         <link href="https://liaojunhao.github.io/zhihui-editor/blog/the-birth-of-zhihui-editor"/>
         <updated>2024-05-24T18:00:00.000Z</updated>
         <summary type="html"><![CDATA[Zhihui Editor 是由腾讯云智绘倾力打造的在线模板编辑器实现内容在线编辑的解决方案。为了进一步丰富 Zhihui Editor 的开发生态，让开发者有更好的开发体验和更快的开发速度，我们封装了大量的工具组件来便捷的操作canvas画布，经过两个多月的精雕细琢，终于跟随 Zhihui Editor 0.0.1 bate版本正式发布。]]></summary>
-        <content type="html"><![CDATA[<p>Zhihui Editor 是由腾讯云智绘倾力打造的在线模板编辑器实现内容在线编辑的解决方案。为了进一步丰富 Zhihui Editor 的开发生态，让开发者有更好的开发体验和更快的开发速度，我们封装了大量的工具组件来便捷的操作canvas画布，经过两个多月的精雕细琢，终于跟随 Zhihui Editor 0.0.1 bate版本正式发布。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="zhihui-editor">Zhihui Editor<a href="https://liaojunhao.github.io/zhihui-editor/blog/the-birth-of-zhihui-editor#zhihui-editor" class="hash-link" aria-label="Zhihui Editor的直接链接" title="Zhihui Editor的直接链接">​</a></h2>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="特性">特性<a href="https://liaojunhao.github.io/zhihui-editor/blog/the-birth-of-zhihui-editor#%E7%89%B9%E6%80%A7" class="hash-link" aria-label="特性的直接链接" title="特性的直接链接">​</a></h2>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="快速开始">快速开始<a href="https://liaojunhao.github.io/zhihui-editor/blog/the-birth-of-zhihui-editor#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B" class="hash-link" aria-label="快速开始的直接链接" title="快速开始的直接链接">​</a></h2>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="意见反馈">意见反馈<a href="https://liaojunhao.github.io/zhihui-editor/blog/the-birth-of-zhihui-editor#%E6%84%8F%E8%A7%81%E5%8F%8D%E9%A6%88" class="hash-link" aria-label="意见反馈的直接链接" title="意见反馈的直接链接">​</a></h2>]]></content>
+        <content type="html"><![CDATA[<p>Zhihui Editor 是由腾讯云智绘倾力打造的在线模板编辑器实现内容在线编辑的解决方案。为了进一步丰富 Zhihui Editor 的开发生态，让开发者有更好的开发体验和更快的开发速度，我们封装了大量的工具组件来便捷的操作canvas画布，经过两个多月的精雕细琢，终于跟随 Zhihui Editor 0.0.1 bate版本正式发布。</p>]]></content>
         <author>
             <name>junhliao</name>
             <uri>https://github.com/liaojunhao</uri>
