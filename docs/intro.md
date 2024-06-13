@@ -20,7 +20,7 @@ Zhihui Editor 是一个简单的工具包，可以解决一组集中的业务问
 
 <Tabs>
   <TabItem value="npm run zhihui-editor" label="npm" default>
-    ```js
+    ```bash
     npm install zhihui-editor
     ```
   </TabItem>

@@ -3,6 +3,7 @@ sidebar_position: 1
 ---
 
 import Highlight from '@site/src/components/Highlight';
+import StyledIframe from '@site/src/components/StyledIframe';
 
 # SidePanel
 
@@ -80,3 +81,5 @@ const CustomSidePanel = () => {
   );
 };
 ```
+
+<StyledIframe src='https://codesandbox.io/embed/xjwklf?view=preview&module=%2Fsrc%2FApp.js&hidenavigation=1' title="SidePanel" height="750"></StyledIframe>

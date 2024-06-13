@@ -62,8 +62,8 @@ const FeatureList = [
     ),
     description: (
       <>
-        结合AI技术创造的各种应用：智能批量套版、自动尺寸延展、AI背景、 移除背景、图片批量生成等，帮助Zhihui
-        Editor编辑器提升效率
+        结合AI技术创造的各种应用：智能批量套版、自动尺寸延展、AI背景、 移除背景、图片批量生成等，帮助Zhihui Editor
+        编辑器提升效率
       </>
     )
   }

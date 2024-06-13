@@ -3,6 +3,7 @@ sidebar_position: 2
 ---
 
 import Highlight from '@site/src/components/Highlight';
+import StyledIframe from '@site/src/components/StyledIframe';
 
 # UploadPanel
 
@@ -21,3 +22,5 @@ import Highlight from '@site/src/components/Highlight';
 3. 删除图像
 
 下面的示例不使用真实服务器来实现此功能。它只是使用本地存储来存储图像。但你可以将其作为示例使用。
+
+<StyledIframe src='https://codesandbox.io/embed/fhpgns?view=preview&module=%2Fsrc%2FApp.js&hidenavigation=1' title="UploadPanel" height="750"></StyledIframe>

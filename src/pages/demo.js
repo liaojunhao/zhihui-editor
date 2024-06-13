@@ -42,21 +42,17 @@ export default function Demo() {
         <div className={styles.titleContainer}>
           <div className={styles.title}>
             <div className={styles.leftContent}>
-              <div className={styles.leftSsr}>
-                <h1 className={styles.framerText}>Zhihui Editor Demo</h1>
-              </div>
+              <h1 className={styles.framerText}>Zhihui Editor Demo</h1>
             </div>
             <div className={styles.rightContent}>
-              <div className={styles.ssrVariant}>
-                <div className={styles.decoration}>
-                  <p className={styles.decorationText}>
-                    探索最终用户的功能。该演示抓住了 Zhihui Editor 所提供的核心功能。要了解其背后的工作原理，请
-                    <Link className="" to="/docs/intro">
-                      浏览文档
-                    </Link>
-                    。
-                  </p>
-                </div>
+              <div className={styles.decoration}>
+                <p className={styles.decorationText}>
+                  探索最终用户的功能。该演示抓住了 Zhihui Editor 所提供的核心功能。要了解其背后的工作原理，请
+                  <Link className="" to="/docs/intro">
+                    浏览文档
+                  </Link>
+                  。
+                </p>
               </div>
             </div>
           </div>
@@ -398,7 +394,7 @@ export default function Demo() {
                     <p>二维码/条形码</p>
                   </div>
                   <div className={styles.featuresNote}>
-                    <p>签名</p>
+                    <p>印刷</p>
                   </div>
                 </div>
                 <div className={styles.featuresItem}>
@@ -445,7 +441,7 @@ export default function Demo() {
                     <p>图像生成</p>
                   </div>
                   <div className={styles.featuresNote}>
-                    <p>自动尺寸延展</p>
+                    <p>智能尺寸延展</p>
                   </div>
                 </div>
                 <div className={styles.featuresItem}>

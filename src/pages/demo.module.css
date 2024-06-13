@@ -7,17 +7,17 @@
   gap: 72px;
   height: auto;
   justify-content: flex-start;
-  max-width: 1440px;
+  max-width: 1360px;
   overflow: visible;
-  padding: 0 32px;
   position: relative;
   width: 100%;
 }
-@media (min-width: 1152px) and (max-width: 1439px) {
+/* @media (min-width: 1440px) {
   .sectionBox {
-    /* order: 2; */
+    max-width: var(--ifm-container-width-xl);
   }
-}
+} */
+
 .container {
   align-items: center;
   border-radius: 12px;
@@ -70,98 +70,60 @@
   height: min-content;
   justify-content: flex-start;
   overflow: visible;
-  padding: 0 0 48px;
+  padding: 0 0 45px;
   position: relative;
   width: 100%;
-}
-
-@media (min-width: 1152px) and (max-width: 1439px) {
-  .titleContainer {
-    /* order: 1; */
-    padding: 0 32px 48px;
-  }
 }
 
 .title {
   align-items: flex-start;
   display: flex;
-  flex: none;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  height: min-content;
   justify-content: space-between;
-  max-width: 1380px;
-  overflow: visible;
-  padding: 60px 32px 16px 0;
+  max-width: 1360px;
+  padding: 60px 0 16px 0;
   position: relative;
   width: 100%;
 }
-@media (min-width: 1152px) and (max-width: 1439px) {
+
+/* @media (min-width: 1440px) {
   .title {
-    padding: 60px 0 16px;
+    max-width: var(--ifm-container-width-xl);
   }
-}
+} */
 
 .leftContent {
-  display: contents;
-}
-
-.leftSsr {
-  outline: none;
+  height: 112px;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  transform: none;
-  flex: none;
-  height: auto;
-  position: relative;
-  white-space: pre;
-  width: auto;
+  align-items: center;
 }
 
 .framerText {
-  font-size: 60px !important;
-  font-weight: 600 !important;
-  line-height: 1.5 !important;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
 }
 
 .rightContent {
-  align-items: center;
+  height: 112px;
   display: flex;
-  flex: none;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  gap: 10px;
-  height: min-content;
-  justify-content: center;
-  overflow: hidden;
-  padding: 12px 0 0;
-  position: relative;
+  align-items: center;
   width: 50%;
 }
-.ssrVariant {
-  display: contents;
-}
+
 .decoration {
-  outline: none;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  flex-shrink: 0;
-  transform: none;
-  flex: none;
-  height: auto;
+  height: max-content;
   position: relative;
-  white-space: pre-wrap;
   width: 100%;
-  word-break: break-word;
-  word-wrap: break-word;
 }
 
 .decorationText {
   font-size: 22px;
   font-weight: 400;
+  margin: 0;
 }
 
 .wrap {
@@ -187,17 +149,14 @@ html[data-theme='dark'] .wrap {
 .navbarContainer {
   align-items: center;
   display: flex;
-  flex: none;
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 0px;
   height: min-content;
   justify-content: center;
-  overflow: visible;
   padding: 0;
   position: sticky;
   width: 100%;
-  will-change: transform;
 }
 
 .navbarTitle {
@@ -209,17 +168,21 @@ html[data-theme='dark'] .wrap {
   gap: 10px;
   height: min-content;
   justify-content: flex-start;
-  max-width: 1380px;
+  max-width: 1360px;
   overflow: hidden;
-  padding: 0;
   position: relative;
   width: 100%;
 }
 .navbarTitle p {
-  margin: 0 !important;
+  margin: 0;
   font-size: 20px;
   color: rgba(63, 57, 123, 0.6);
 }
+/* @media (min-width: 1440px) {
+  .navbarTitle {
+    max-width: var(--ifm-container-width-xl);
+  }
+} */
 html[data-theme='dark'] .navbarTitle p {
   color: #fff;
 }
@@ -227,23 +190,26 @@ html[data-theme='dark'] .navbarTitle p {
 .navbar {
   align-items: flex-start;
   display: flex;
-  flex: none;
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 40px;
   height: min-content;
   justify-content: flex-start;
-  max-width: 1380px;
+  max-width: 1360px;
   overflow: visible;
-  padding: 12px 0 24px;
+  padding: 15px 0 24px;
   position: sticky;
   top: 0;
   width: 100%;
-  will-change: transform;
   z-index: 1;
-
   border-bottom: 2px solid rgb(214, 214, 214);
 }
+
+/* @media (min-width: 1440px) {
+  .navbar {
+    max-width: var(--ifm-container-width-xl);
+  }
+} */
 
 html[data-theme='dark'] .navbar {
   border-bottom: 2px solid rgb(47, 47, 47);
@@ -270,7 +236,6 @@ html[data-theme='dark'] .navbar {
 .integrations {
   align-items: center;
   display: flex;
-  flex: none;
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 10px;
@@ -289,22 +254,22 @@ html[data-theme='dark'] .navbar {
   flex-wrap: nowrap;
   height: min-content;
   justify-content: space-between;
-  max-width: 1380px;
+  max-width: 1360px;
   overflow: visible;
-  padding: 118px 0 48px 0;
+  padding: 95px 0 45px 0;
   position: relative;
   width: 100%;
 }
 
 .integrationsTitle h1 {
-  font-size: 50px !important;
-  margin: 0 !important;
+  font-size: 50px;
+  margin: 0;
   scroll-margin-top: 72px;
 }
 
 .integrationsTitle p {
-  font-size: 22px !important;
-  margin: 0 !important;
+  font-size: 22px;
+  margin: 0;
   padding: 12px 0 0;
 }
 
@@ -332,7 +297,7 @@ html[data-theme='dark'] .navbar {
   flex-wrap: nowrap;
   height: min-content;
   justify-content: space-between;
-  max-width: 1380px;
+  max-width: 1360px;
   overflow: visible;
   padding: 32px 82px 60px 82px;
   position: relative;
@@ -569,12 +534,11 @@ html[data-theme='dark'] .note h3 {
   gap: 10px;
   height: min-content;
   justify-content: center;
-  max-width: 1380px;
+  max-width: 1360px;
   overflow: visible;
   padding: 0 32px 148px;
   position: relative;
   scroll-margin-top: 48px;
-  width: 1px;
 }
 
 .ctas {
@@ -599,7 +563,7 @@ html[data-theme='dark'] .note h3 {
   height: auto;
   position: relative;
   width: 280px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .primary {
@@ -618,14 +582,14 @@ html[data-theme='dark'] .note h3 {
   position: relative;
   background-color: var(--ifm-color-primary);
 
-  color: #fff !important;
+  color: #fff;
   font-size: 24px;
   font-weight: 600;
   border: 2px solid var(--ifm-color-primary);
 }
 
 .primary:hover {
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
 }
 
@@ -674,13 +638,12 @@ html[data-theme='dark'] .note h3 {
   flex-wrap: nowrap;
   height: min-content;
   justify-content: space-between;
-  max-width: 1380px;
+  max-width: 1360px;
   overflow: visible;
   padding: 32px 82px 60px 82px;
   position: relative;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-  margin-bottom: 10px;
 }
 
 html[data-theme='dark'] .nocode {
@@ -751,7 +714,7 @@ html[data-theme='dark'] .nocode {
   display: flex;
   flex: 0 0 auto;
   flex-flow: column;
-  gap: 16px;
+  gap: 13px;
   height: min-content;
   overflow: visible;
   padding: 0px;
