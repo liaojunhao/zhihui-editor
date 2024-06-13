@@ -1,5 +1,5 @@
 ---
-title: 图像风格化
+title: 图像动漫化
 authors: [junhliao, psychewang]
 tags: [AI, 图像风格化, 动漫化]
 date: 2024-05-19T10:00

@@ -1,8 +1,13 @@
 .whoIsUsing {
-  max-width: var(--ifm-container-width-xl) !important;
+  max-width: var(--ifm-container-width);
   margin: 0 auto;
-  padding-bottom: 3rem;
-  padding-top: 2rem;
+  padding: 2rem 16px 3rem 16px;
+}
+
+@media (min-width: 1440px) {
+  .whoIsUsing {
+    max-width: var(--ifm-container-width-xl);
+  }
 }
 
 .usingList {
