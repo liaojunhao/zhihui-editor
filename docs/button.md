@@ -22,7 +22,7 @@ import Highlight from '@site/src/components/Highlight';
 1. 将 Zhihui Editor Button 脚本添加到您的网站。
 
 ```js
-<script src="https://zhihui-editor.com/button-v1.js"></script>
+<script src="https://zhihui-editor.com/button.js"></script>
 ```
 
 2. 在页面的某处创建按钮。
@@ -53,10 +53,10 @@ button.addEventListener('click', () => {
 Zhihui Editor Button 可以根据您的需要进行定制。
 
 ```js
-window.createPolotnoEditor({
+window.createZhihuiEditor({
   key: 'my-token',
   // 选择要展示的侧边面板
-  sections: ['templates', 'photos', 'text', 'elements', 'upload', 'background', 'layers', 'size'],
+  sections: ['templates', 'materials', 'text', 'shapes', 'upload', 'background', 'layers', 'size'],
   defaultSection: 'templates', // 默认展示的侧边面板
   // 画布的初始大小
   width: 500,
