@@ -8,7 +8,7 @@
 <h3 align="center">
 面向开发者的<b>在线图形编辑器</b> 🧑‍💻👩‍💻👨‍💻
 </h3>
-<p align="center">基于 fabric.js 和 React 开发的图片编辑器，用于制作您自己的类似画布的设计编辑器的 JS 框架。</p>
+<p align="center">基于 fabric.js 和 React 开发的图形编辑器，用于制作您自己的类似画布设计编辑器的 JS 框架</p>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/zhihui-editor" target="__blank"><img src="https://img.shields.io/npm/v/zhihui-editor?color=3a2be0" alt="NPM version"></a>
@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://static.taishan.qq.com/h5/desgin/index.html">演示示例</a> | <a href="https://liaojunhao.github.io/zhihui-editor">文档</a>
+  <a href="https://static.taishan.qq.com/h5/desgin/index.html">示例</a> | <a href="https://liaojunhao.github.io/zhihui-editor">文档</a>
 </p>
 
 <div align="center">
@@ -49,6 +49,7 @@
 ```
 npm install zhihui-editor
 ```
+
 初始化演示应用程序（基于 React 框架）：
 
 ```js
@@ -105,6 +106,7 @@ function App() {
   );
 }
 ```
+
 ## License
 
 1. 您可以免费使用此包用于非商业产品和本地开发过程。
@@ -112,4 +114,3 @@ function App() {
 3. 请尊重版权。
 
 <br>
-
