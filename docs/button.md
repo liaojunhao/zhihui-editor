@@ -3,6 +3,7 @@ sidebar_position: 5
 ---
 
 import Highlight from '@site/src/components/Highlight';
+import '@site/static/button.js';
 
 # Zhihui Editor Button
 
@@ -22,7 +23,7 @@ import Highlight from '@site/src/components/Highlight';
 1. 将 Zhihui Editor Button 脚本添加到您的网站。
 
 ```js
-<script src="https://zhihui-editor.com/button.js"></script>
+<script src="https://static.taishan.qq.com/demo-data/button-v1.js"></script>
 ```
 
 2. 在页面的某处创建按钮。
@@ -54,30 +55,43 @@ Zhihui Editor Button 可以根据您的需要进行定制。
 
 ```js
 window.createZhihuiEditor({
-  key: 'my-token',
+  url: '', // 自定义源地址
+  token: 'my-token',
+  teamId: '',
+  companyId: '',
+
   // 选择要展示的侧边面板
-  sections: ['templates', 'materials', 'text', 'shapes', 'upload', 'background', 'layers', 'size'],
+  sections: ['templates', 'materials', 'text', 'background', 'upload', 'layers', 'layers', 'size', 'shapes'],
   defaultSection: 'templates', // 默认展示的侧边面板
+
   // 画布的初始大小
   width: 500,
   height: 300,
-  // 从 json 文件加载模板
-  jsonUrl: 'https://static.taishan.qq.com/demo-data/template_demo_5.json',
+
   // 从 json 对象加载模板
   json: {
     // 模板的 json 对象
   },
-  // change default text of the publish button
+
+  /**
+   * 与json属性二选一（json优先级最高）
+   */
+  templateId: '', //获取远程数据的 - 模板ID
+  from: '', //获取远程数据的 - 数据来源
+
+  // 改变默认的文案
   publishLabel: 'Save',
   onPublish: ({ dataURL, json }) => {
     document.getElementById('result').src = dataURL;
     console.log('json', json);
   },
+
   // 编辑器中任何更改执行的回调
   // 可以把返回的json存储到某处，以便稍后恢复，或者可以手动将 JSON 保存到服务器
   onChange: ({ json }) => {
     console.log('json', json);
   },
+
   // 你可以初始化自己的图片
   // 把他显示在上传侧边面板中
   uploads: [
@@ -94,4 +108,67 @@ window.createZhihuiEditor({
     }
   }
 });
+```
+
+```jsx live
+function Dome(props) {
+  const createEditor = () => {
+    const localUrl = 'http://taidc.qq.com';
+
+    window.createZhihuiEditor({
+      url: localUrl, // 可以自定义配置
+      token: '', // 没有的话也要传空字符串
+      teamId: '',
+      companyId: '',
+      // sections: ['materials'],
+      // defaultSection: 'text',
+      width: 1200,
+      height: 2300,
+
+      publishLabel: '发布',
+      onPublish: (option) => {
+        console.log('最终的回调', option);
+      },
+      onChange: ({ json }) => {
+        console.log('json', json);
+      }
+
+      /**
+       * 两种数据格式任选一种（两种都需要传递有效的token才能生效）
+       * json优先级最高，不传的话默认加载远程
+       */
+      // json: json // 具体的数据格式可以查看 store API
+      // templateId: '666fe6a0511d27094bf2bed1',
+      // from: 'record'
+    });
+  };
+
+  return (
+    <div
+      style={{
+        width: '100%',
+        height: 385,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}
+    >
+      <button
+        style={{
+          height: 35,
+          padding: '5px 25px',
+          border: 'none',
+          background: '#3a2be0',
+          borderRadius: 6,
+          color: 'white'
+        }}
+        onClick={() => {
+          createEditor();
+        }}
+      >
+        Open Editor
+      </button>
+    </div>
+  );
+}
 ```
