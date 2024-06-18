@@ -1,7 +1,7 @@
 <br>
 <p align="center">
 <a href="https://liaojunhao.github.io/zhihui-editor" target="_blank">
-<img src="https://zhihui.gtimg.com/logo3.png" alt="Slidev" height="250" width="250"/>
+<img src="https://zhihui.gtimg.com/logo3.png" alt="Slidev" height="200" width="200" style="margin: 25px 0;"/>
 </a>
 
 </p>
@@ -114,3 +114,4 @@ function App() {
 3. 请尊重版权。
 
 <br>
+
