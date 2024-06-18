@@ -113,7 +113,7 @@ window.createZhihuiEditor({
 ```jsx live
 function Dome(props) {
   const createEditor = () => {
-    const localUrl = 'http://taidc.qq.com';
+    const localUrl = 'https://taidc.qq.com';
 
     window.createZhihuiEditor({
       url: localUrl, // 可以自定义配置
