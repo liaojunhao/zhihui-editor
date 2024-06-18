@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 
 import Highlight from '@site/src/components/Highlight';
-import '@site/static/button.js';
+
 
 # Zhihui Editor Button
 
