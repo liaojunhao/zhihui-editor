@@ -5,9 +5,10 @@
 </a>
 
 </p>
-<p align="center">
+<h3 align="center">
 面向开发者的<b>在线图形编辑器</b> 🧑‍💻👩‍💻👨‍💻
-</p>
+</h3>
+<p align="center">基于 fabric.js 和 React 开发的图片编辑器，用于制作您自己的类似画布的设计编辑器的 JS 框架。</p>
 
 <p align="center">
 <a href="https://www.npmjs.com/package/zhihui-editor" target="__blank"><img src="https://img.shields.io/npm/v/zhihui-editor?color=3a2be0" alt="NPM version"></a>
@@ -48,8 +49,67 @@
 ```
 npm install zhihui-editor
 ```
+初始化演示应用程序（基于 React 框架）：
+
+```js
+// css导入
+import 'zhihui-editor/lib/zhihui-editor.min.css';
+
+import { WorkspaceWrap, ZhihuiEditorContainer, SidePanelWrap } from 'zhihui-editor';
+import { createStore } from 'zhihui-editor/lib/model/store';
+import { SidePanel } from 'zhihui-editor/lib/side-panel';
+import { Workspace } from 'zhihui-editor/lib/canvas/workspace';
+import { Toolbar } from 'zhihui-editor/lib/toolbar/toolbar';
+import { ZoomButtons } from 'zhihui-editor/lib/toolbar/zoomButtons';
+
+// 设置语言的方法
+import { setTranslations } from 'zhihui-editor/lib/config';
+
+// 默认提供两种语言包
+import en_US from 'zhihui-editor/lib/locale/enUS';
+import zh_CN from 'zhihui-editor/lib/locale/zhCN';
+
+// 控制工程的辅助工具
+import { createProject } from 'zhihui-editor/lib/project';
+```
+
+```js
+function App() {
+  const store = createStore({});
+  const project = createProject({ store });
+
+  const init = async () => {
+    // 加载字体资源库
+    await project.getGlobalFont();
+    // 加载模板
+    project.firstLoad();
+  };
+
+  useEffect(() => {
+    init();
+  }, []);
+
+  return (
+    <div style={{ width: '100vw', height: '100vh' }}>
+      <ZhihuiEditorContainer>
+        <SidePanelWrap>
+          <SidePanel store={store} />
+        </SidePanelWrap>
+        <WorkspaceWrap>
+          <Toolbar store={store} />
+          <Workspace store={store} />
+          <ZoomButtons store={store} />
+        </WorkspaceWrap>
+      </ZhihuiEditorContainer>
+    </div>
+  );
+}
+```
+## License
+
+1. 您可以免费使用此包用于非商业产品和本地开发过程。
+2. 对于商业用途，您必须在这里购买许可证：[zhihui.qq.com](https://zhihui.qq.com/)
+3. 请尊重版权。
 
 <br>
-
-
 
