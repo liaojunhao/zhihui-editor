@@ -1,10 +1,11 @@
 <br>
 <p align="center">
 <a href="https://liaojunhao.github.io/zhihui-editor" target="_blank">
-<img src="https://zhihui.gtimg.com/logo3.png" alt="Slidev" height="200" width="200" style="margin: 25px 0;"/>
+<img src="https://zhihui.gtimg.com/logo3.png" alt="Slidev" height="200" width="200"/>
 </a>
-
 </p>
+<br>
+
 <h3 align="center">
 面向开发者的<b>在线图形编辑器</b> 🧑‍💻👩‍💻👨‍💻
 </h3>
