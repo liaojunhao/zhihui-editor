@@ -29,7 +29,7 @@
 <tbody>
 <td align="center">
 <img width="2000" height="0" alt="" aria-hiden><br>
-<sub> <a href="https://liaojunhao.github.io/zhihui-editor/pricing">订阅我们 💖</a> 是支持我们最大的动力</sub><br>
+<sub> <a href="https://liaojunhao.github.io/zhihui-editor/pricing">订阅我们 </a> 💖是支持我们最大的动力</sub><br>
 <img width="2000" height="0" alt="" aria-hiden>
 </td>
 </tbody>
@@ -40,8 +40,16 @@
 
 - 📝 [**开箱即用**](https://liaojunhao.github.io/zhihui-editor/docs/intro) - 简单的配置即可获得功能齐全的图像编辑器
 - 🧑‍💻 [**自定义样式**](https://liaojunhao.github.io/zhihui-editor/docs/theme) - 高度自定义扩展，可个性化为自己喜爱的样式
+- 🎨 [**设计资源**](https://liaojunhao.github.io/zhihui-editor) - 10万+优质模板、创意素材随心选
+- 📤 [**多种格式导出**](https://liaojunhao.github.io/zhihui-editor/docs/misc/import-and-export) - 导出PDF、PNG、JPG、JSON等多种格式
+- 🛠 [**高可扩展**](https://liaojunhao.github.io/zhihui-editor) - 所有对画布的工具组件都可自定义扩展，高度个性化定制，匹配各种场景
+- 🤹 [**结合AI**](https://liaojunhao.github.io/zhihui-editor/blog) - 结合各种AI能力，来提效编辑器功能的创新型，提高生产效率
 
 ## 快速开始
+
+### 在线尝试 ⚡️
+
+[![](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/vitejs-vite-wuhy4n?file=src%2FApp.jsx)
 
 ### 本地初始化项目
 
@@ -108,11 +116,17 @@ function App() {
 }
 ```
 
+## 核心技术栈
+
+- [React](https://react.dev/) - 用于渲染用户界面 (UI) 的 JavaScript 库
+- [Rollup](https://rollupjs.org/) - 用于 JavaScript 的模块打包工具
+- [Tailwind CSS](https://tailwindui.com/) - 是一个功能类优先的 CSS 框架，它提供了一套预先定义的类，提供了构建组件的原子类
+- [Fabric.js](http://fabricjs.com/) - 是一个强大而简单的Javascript **HTML5画布库**
+- [IconPack](https://iconpark.oceanengine.com/) - 图标库
+- [Mobx](https://mobx.js.org/) - 状态管理库
+
 ## License
 
-1. 您可以免费使用此包用于非商业产品和本地开发过程。
-2. 对于商业用途，您必须在这里购买许可证：[zhihui.qq.com](https://zhihui.qq.com/)
-3. 请尊重版权。
+Licensed under the MIT License.
 
 <br>
-
