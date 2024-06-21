@@ -4,7 +4,6 @@ sidebar_position: 5
 
 import Highlight from '@site/src/components/Highlight';
 
-
 # Zhihui Editor Button
 
 <Highlight color="#dfd9fe">Zhihui Editor Button</Highlight> 是一个专用脚本，可以轻松高效地将 Zhihui Editor 嵌入到任何网站。只需一个简单的按钮，您就可以为您的应用程序提供任何设计定制的新维度。
@@ -55,10 +54,10 @@ Zhihui Editor Button 可以根据您的需要进行定制。
 
 ```js
 window.createZhihuiEditor({
-  url: '', // 自定义源地址
+  // url: '', // 自定义源地址，默认不填
   token: 'my-token',
-  teamId: '',
-  companyId: '',
+  teamId: 'my-teamId',
+  companyId: 'my-companyId',
 
   // 选择要展示的侧边面板
   sections: ['templates', 'materials', 'text', 'background', 'upload', 'layers', 'layers', 'size', 'shapes'],
@@ -67,6 +66,11 @@ window.createZhihuiEditor({
   // 画布的初始大小
   width: 500,
   height: 300,
+
+  logo: 'MyLogo', // 自定义logo图片
+  logoHref: 'MyLogoHref', // logo的跳转地址
+  isShowLogo: true, // 是否隐藏logo
+  isTeam: true, // 是否隐藏团队、企业数据信息
 
   // 从 json 对象加载模板
   json: {
@@ -117,20 +121,31 @@ function Dome(props) {
 
     window.createZhihuiEditor({
       url: localUrl, // 可以自定义配置
-      token: '', // 没有的话也要传空字符串
-      teamId: '',
-      companyId: '',
-      // sections: ['materials'],
+      // token: '',
+      // teamId: '',
+      // companyId: '',
+      // sections: [],
       // defaultSection: 'text',
       width: 1200,
       height: 2300,
 
+      // logo: '', // 自定义logo图片
+      // logoHref: '', // logo的跳转地址
+      // isShowLogo: true, // 是否隐藏logo
+      // isTeam: true, // 是否隐藏团队、企业数据
       publishLabel: '发布',
       onPublish: (option) => {
         console.log('最终的回调', option);
       },
       onChange: ({ json }) => {
         console.log('json', json);
+      },
+
+      // 自定义翻译
+      translations: {
+        sidePanel: {
+          templates: 'Шаблоны'
+        }
       }
 
       /**
@@ -154,6 +169,7 @@ function Dome(props) {
       }}
     >
       <button
+        className="my-custom-btn"
         style={{
           height: 35,
           padding: '5px 25px',

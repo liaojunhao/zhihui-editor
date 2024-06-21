@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  scripts:['https://static.taishan.qq.com/demo-data/button-v1.js'],
+  scripts: ['https://static.taishan.qq.com/demo-data/button-v1.js'],
   title: 'Zhihui Editor',
   staticDirectories: ['public', 'static'],
   themes: ['@docusaurus/theme-live-codeblock'],

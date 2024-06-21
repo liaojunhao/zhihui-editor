@@ -45,6 +45,16 @@ p {
   line-height: 1.8;
 }
 
+.my-custom-btn {
+  cursor: pointer;
+}
+.my-custom-btn:hover {
+  opacity: 0.8;
+}
+.my-custom-btn:active {
+  opacity: 1;
+}
+
 /* .menu_node_modules-\@docusaurus-theme-classic-lib-theme-DocSidebar-Desktop-Content-styles-module {
   padding-bottom: 200px !important;
 }

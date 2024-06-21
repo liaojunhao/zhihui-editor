@@ -130,12 +130,12 @@ addGlobalFont({
 
 ```jsx
 import { SidePanel } from 'zhihui-editor/lib/side-panel';
-
-<SidePanel store={store} isShowLogo={false} />;
+// isShowLogo true为设置隐藏logo，默认是false为显示
+<SidePanel store={store} isShowLogo={true} />;
 ```
 
-可以通过设置[SidePanel 组件](/docs/侧面板/side-panel-overview)的 <code>logo</code> 跟 <code>href</code> 参数也替换默认设置的logo跟链接
+可以通过设置[SidePanel 组件](/docs/侧面板/side-panel-overview)的 <code>logo</code> 跟 <code>logoHref</code> 参数也替换默认设置的logo跟链接
 
 ```jsx
-<SidePanel store={store} logo="MyCustomLogo" href="MyCustomHref" />
+<SidePanel store={store} logo="MyCustomLogoUrl" logoHref="MyCustomlogoHref" />
 ```
